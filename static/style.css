@@ -1,30 +1,38 @@
 .wrapper {
-	/*border: solid black 1px;*/
 	height: auto;
-	/*position: relative;*/
+	margin: 10px 10px;
 }
 form {
-	/*margin-top: 100px;	*/
 	display: inline-block;
-	/*position: absolute;*/
+}
+input.input {
+	width: 200px;
 }
 .error {
 	color: white;
-	position: relative;
-	background-color: red;
-	border: solid black 1px;
-	width: 40%;
+	display: inline-block;
+	background-color: #db524b;
+	width: 438px;
 	text-align: center;
+	border-radius: 5px
+
 }
 .success {
 	color: white;
-	background-color: green;
-	border: solid black 1px;
-	width: 40%;
+	display: inline-block;
+	background-color: #58b958;
+	width: 438px;
+	border-radius: 5px;
 	text-align: center;
 }
-.hidden {
-	margin-left: 20px;
+.div {
+	background-color: lightgray;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	width: auto;
 }
 .addresses {
 	margin-left: 20px;
