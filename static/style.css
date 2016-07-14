@@ -1,0 +1,31 @@
+.wrapper {
+	/*border: solid black 1px;*/
+	height: auto;
+	/*position: relative;*/
+}
+form {
+	/*margin-top: 100px;	*/
+	display: inline-block;
+	/*position: absolute;*/
+}
+.error {
+	color: white;
+	position: relative;
+	background-color: red;
+	border: solid black 1px;
+	width: 40%;
+	text-align: center;
+}
+.success {
+	color: white;
+	background-color: green;
+	border: solid black 1px;
+	width: 40%;
+	text-align: center;
+}
+.hidden {
+	margin-left: 20px;
+}
+.addresses {
+	margin-left: 20px;
+}
